@@ -1,17 +1,12 @@
-// index.js
-import './a.js'
-import './b.js'
-
 // 异步代码
-function getComponent() {
-  // 使用 jsonp 的形式导入 lodash，default: _ 表示用 _ 代指 lodash
-  return import('lodash').then(({ default: _ }) => {
-    var element = document.createElement('div')
-    element.innerHTML = _.join(['hello', 'world'], '-')
-    return element
-  })
-}
+import(/* webpackChunkName: 'a'*/ './a').then(function(a) {
+  console.log(a)
+})
 
-getComponent().then(element => {
-  document.body.appendChild(element)
+import(/* webpackChunkName: 'b'*/ './b').then(function(b) {
+  console.log(b)
+})
+
+import(/* webpackChunkName: 'use-lodash'*/ 'lodash').then(function(_) {
+  console.log(_.join(['1', '2']))
 })
