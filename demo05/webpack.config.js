@@ -31,7 +31,7 @@ module.exports = {
         commons: {
           name: 'commons',
           minSize: 0, //表示在压缩前的最小模块大小,默认值是 30kb
-          minChunks: 1, // 最小公用次数
+          minChunks: 2, // 最小公用次数
           priority: 5, // 优先级
           reuseExistingChunk: true // 公共模块必开启
         },

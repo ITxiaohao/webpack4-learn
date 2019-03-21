@@ -1,7 +1,4 @@
-// 同步代码
-// import _ from 'lodash'
-
-// console.log(_.join(['a', 'b', 'c'], '***'))
+// index.js
 import './a.js'
 import './b.js'
 
