@@ -1,0 +1,8 @@
+{
+  "compileerOptions": {
+    "outDir": "./dist", // 写不写都行
+    "module": "es6", // 用 es6 模块引入 import
+    "target": "es5", // 打包成 es5
+    "allowJs": true // 允许在 ts 中也能引入 js 的文件
+  }
+}

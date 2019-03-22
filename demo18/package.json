@@ -1,0 +1,22 @@
+{
+  "name": "demo18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.123",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
