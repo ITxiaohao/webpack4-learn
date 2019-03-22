@@ -4,8 +4,6 @@ const commonConfig = require('./webpack.base.conf.js')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin') // 将 css 单独打包成文件
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin') // 压缩 css
 
-const CleanWebpackPlugin = require('clean-webpack-plugin')
-
 const WorkboxPlugin = require('workbox-webpack-plugin') // PWA 插件
 
 const prodConfig = {
@@ -67,8 +65,7 @@ const prodConfig = {
     new WorkboxPlugin.GenerateSW({
       clientsClaim: true,
       skipWaiting: true
-    }),
-    new CleanWebpackPlugin()
+    })
   ]
 }
 
