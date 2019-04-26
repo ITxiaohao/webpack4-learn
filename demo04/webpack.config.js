@@ -18,7 +18,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/, // 使用正则来匹配 js 文件
-        exclude: /nodes_modules/, // 排除依赖包文件夹
+        exclude: /node_modules/, // 排除依赖包文件夹
         use: {
           loader: 'babel-loader' // 使用 babel-loader
         }
