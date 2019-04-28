@@ -24,7 +24,7 @@ module.exports = {
       name: true,
       cacheGroups: {
         lodash: {
-          name: 'loadsh',
+          name: 'lodash',
           test: /[\\/]node_modules[\\/]lodash[\\/]/,
           priority: 10
         },
