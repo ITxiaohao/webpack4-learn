@@ -25,8 +25,8 @@ module.exports = {
             loader: MiniCssExtractPlugin.loader
           },
           'css-loader',
-          'sass-loader', // 使用 sass-loader 将 scss 转为 css
-          'postcss-loader' // 使用 postcss 为 css 加上浏览器前缀
+          'postcss-loader', // 使用 postcss 为 css 加上浏览器前缀
+          'sass-loader' // 使用 sass-loader 将 scss 转为 css
         ]
       }
     ]
