@@ -1,8 +1,8 @@
 # 项目说明
 
-此项目总共 24 小节，前 15 节基于 [Webpack4 渐进式教程](https://godbmw.com/passages/2019-03-04-please-mark/) 为基础，加上自己的实践和理解得出，感谢 **[godbmw](https://godbmw.com/)** 😄
+此项目总共 24 小节，前 15 节基于 [Webpack4 渐进式教程](https://xin-tan.com/passages/2018-07-29-webpack-demos-introduction/) 为基础，加上自己的实践和理解得出，感谢 **[心谭](https://xin-tan.com/)** 😄
 
-在 [Webpack4 渐进式教程](https://godbmw.com/passages/2018-07-29-webpack-demos-introduction/) 的基础上升级：
+在 [Webpack4 渐进式教程](https://xin-tan.com/passages/2018-07-29-webpack-demos-introduction/) 的基础上升级：
 
 - 使用 **babel7**
 - 配置 **.browserslistrc** 文件
@@ -44,17 +44,13 @@
 
 ```md
 OS: 「win10」
-
 node: 「10.5.0」
-
 npm: 「6.1.0」
-
 webpack: 「4.29.6」
-
 webpack-cli: 「3.2.3」
 ```
 
-每一个章节对应一个 demo 👉 [配套的文档地址](https://itxiaohao.github.io/blog/webpack/webpack4-first.html)
+每一个章节对应一个 demo 👉 [配套的文档地址](https://itxiaohao.github.io/passages/webpack4-learn-introduction/)
 
 有错误请提 **issue**
 
